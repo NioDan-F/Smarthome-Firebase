@@ -8,7 +8,8 @@ This project implements a smart home model using **STM32** and **ESP32**, allowi
 
 ### 🎥 Demo Video
 
-<video src="https://raw.githubusercontent.com/NioDan-F/Smarthome-Firebase/main/Demo%20SMH.mp4" controls style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;"></video>
+[![Demo Video](https://raw.githubusercontent.com/NioDan-F/Smarthome-Firebase/main/assets/thumbnail.jpg)](https://raw.githubusercontent.com/NioDan-F/Smarthome-Firebase/main/Demo%20SMH.mp4)
+
 
 ---
 ## Features
