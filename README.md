@@ -1,7 +1,16 @@
 # Smart Home Project
-# Nghiên cứu tích hợp hệ thống điều khiển tự động nhà thông minh sử dụng STM32 và ESP32
-This project implements a smart home model using STM32 and ESP32, allowing users to control and monitor their home environment through a mobile application and an HMI touchscreen.
-<video src="https://raw.githubusercontent.com/NioDan-F/Smarthome-Firebase/main/Demo%20SMH.mp4" controls style="max-width: 730px;"></video>
+
+## Nghiên cứu tích hợp hệ thống điều khiển tự động nhà thông minh sử dụng STM32 và ESP32
+
+This project implements a smart home model using **STM32** and **ESP32**, allowing users to control and monitor their home environment through a **mobile application** and an **HMI touchscreen interface**.
+
+---
+
+### 🎥 Demo Video
+
+<video src="https://raw.githubusercontent.com/NioDan-F/Smarthome-Firebase/main/Demo%20SMH.mp4" controls style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;"></video>
+
+---
 ## Features
 
 * **Lighting control:** Turn lights on/off in different rooms.
