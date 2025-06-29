@@ -4,13 +4,10 @@
 
 This project implements a smart home model using **STM32** and **ESP32**, allowing users to control and monitor their home environment through a **mobile application** and an **HMI touchscreen interface**.
 
----
-
-### 🎥 Demo Video
-
-https://raw.githubusercontent.com/NioDan-F/Smarthome-Firebase/main/Demo%20SMH.mp4
-
-
+<video width="730" controls>
+  <source src="https://github.com/NioDan-F/Smarthome-Firebase/raw/main/Demo%20SMH.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 ---
 ## Features
 
