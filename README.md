@@ -1,7 +1,7 @@
 # Smart Home Project
 # Nghiên cứu tích hợp hệ thống điều khiển tự động nhà thông minh sử dụng STM32 và ESP32
 This project implements a smart home model using STM32 and ESP32, allowing users to control and monitor their home environment through a mobile application and an HMI touchscreen.
-
+- [`Demo Smarthome`](https://archiv.taubenschlag.de/Fingeralphabethttps://github.com/NioDan-F/Smarthome-Firebase/blob/main/Demo%20SMH.mp4) – Python notebook used to train the Decision Tree model and export it for C++ deployment.
 ## Features
 
 * **Lighting control:** Turn lights on/off in different rooms.
