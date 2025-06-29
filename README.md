@@ -8,7 +8,7 @@ This project implements a smart home model using **STM32** and **ESP32**, allowi
   <source src="https://github.com/NioDan-F/Smarthome-Firebase/raw/main/Demo%20SMH.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
----
+
 ## Features
 
 * **Lighting control:** Turn lights on/off in different rooms.
