@@ -71,13 +71,6 @@ Following can be observed from the system:
 - **TJC Software** - HMI interface design
 - **MIT App Inventor** - Mobile application development
 
-### Libraries & Dependencies
-- **Firebase ESP32 Library** - Cloud database integration
-- **WiFi Library** - Network connectivity
-- **DHT Sensor Library** - Temperature/humidity readings
-- **Servo Library** - Motor control
-- **ArduinoJson** - Data serialization
-
 ## System Architecture
 
 ```
@@ -92,42 +85,6 @@ Mobile App ←→ Firebase ←→ ESP32 ←→ STM32 ←→ Sensors/Actuators
 - **I2C**: Sensor data acquisition
 - **WiFi**: ESP32 ↔ Firebase connection
 
-## Installation and Setup
-
-### 1. Hardware Assembly
-1. Connect STM32 to sensors and actuators according to circuit diagram
-2. Wire ESP32 to STM32 via UART (TX/RX pins)
-3. Connect HMI touchscreen to STM32 via SPI
-4. Set up power distribution using LM2596 converters
-
-### 2. Software Configuration
-
-**STM32 Programming:**
-```bash
-# Open STM32CubeIDE
-# Import project: STM32_SmartHome.ioc
-# Configure GPIO pins and peripherals
-# Build and flash to STM32
-```
-
-**ESP32 Setup:**
-```bash
-# Install ESP32 board package in Arduino IDE
-# Install required libraries
-# Configure WiFi credentials and Firebase API keys
-# Upload code to ESP32
-```
-
-**Mobile App:**
-- Open MIT App Inventor project file
-- Configure Firebase database connection
-- Build and install APK on Android device
-
-### 3. System Configuration
-- Set up Firebase Realtime Database
-- Configure HMI interface screens
-- Test all sensor readings and actuator responses
-- Calibrate fingerprint sensor
 
 ## Usage Instructions
 
@@ -195,19 +152,6 @@ Smarthome-Firebase/
 | **Power Consumption** | ~2.5W (standby), ~15W (active) |
 | **Operating Temperature** | -10°C to +50°C |
 
-## Troubleshooting
-
-### Common Issues
-- **Connection Problems**: Check WiFi credentials and network stability
-- **Sensor Errors**: Verify wiring and power supply voltages
-- **App Sync Issues**: Ensure Firebase database rules are properly configured
-- **HMI Unresponsive**: Check SPI connections and power supply
-
-### Performance Optimization
-- Adjust sensor reading intervals to reduce power consumption
-- Optimize Firebase queries for faster response times
-- Use deep sleep mode for ESP32 during inactive periods
-
 ## Future Enhancements
 
 - **Voice Control Integration**: Add support for Google Assistant/Alexa
@@ -227,16 +171,6 @@ For detailed information including:
 
 Please refer to the technical report: **"Nghiên cứu tích hợp hệ thống điều khiển tự động nhà thông minh sử dụng STM32 và ESP32"**
 
-## Contributing
-
-We welcome contributions to improve the Smart Home Project! Here's how you can help:
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
-
 ### Contribution Areas
 - Hardware design improvements
 - Software optimization
@@ -244,27 +178,15 @@ We welcome contributions to improve the Smart Home Project! Here's how you can h
 - Documentation updates
 - Bug fixes and testing
 
-## License
-
-This project is released under **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ## Authors & Acknowledgments
 
 - **Main Developer**: [NioDan-F](https://github.com/NioDan-F)
-- **Supervisor**: [Supervisor Name]
-- **Institution**: [University/Institution Name]
-
-### Special Thanks
-- STM32 and ESP32 communities for excellent documentation
-- Firebase team for reliable cloud services
-- Open source contributors and libraries used in this project
 
 ## Contact & Support
 
 - **GitHub Issues**: For bug reports and feature requests
-- **Email**: [your-email@domain.com]
+- **Email**: [quyet1hai@gmail.com]
 - **Documentation**: Check the `/Documentation` folder for detailed guides
 
 ---
-
-**⚠️ Safety Notice**: This project involves electrical components and mains voltage. Please follow proper safety procedures and consult with qualified electricians when implementing in real homes.
