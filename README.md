@@ -63,18 +63,10 @@ A complete smart home demonstrator built using **STM32** and **ESP32**, featurin
 
 ## 📹 Demo
 
-💡 Add your demo video or link here — e.g.:
-
 ```markdown
 ### Demo Video
 [![View Demo](assets/thumbnail.jpg)](https://raw.githubusercontent.com/NioDan-F/Smarthome-Firebase/main/Demo%20SMH.mp4)
 ```
-
----
-
-## 🤝 Contributing
-
-We welcome bug reports, enhancements, and pull requests! Fork the repository and submit your improvements.
 
 ---
 
