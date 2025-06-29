@@ -1,61 +1,86 @@
-# Smart Home Project
+# Smart Home Project with STM32 & ESP32
 
-## Research on Integrating an Automated Smart Home System Using STM32 and ESP32
+## Overview
 
-This project demonstrates a smart home system using **STM32** and **ESP32**, allowing users to monitor and control home devices via a **mobile application** and an **HMI touchscreen interface**.
+A complete smart home demonstrator built using **STM32** and **ESP32**, featuring control and monitoring via:
 
----
-
-## 🎯 Features
-
-- 💡 **Lighting control:** Turn lights on/off in different rooms
-- 🌡️ **Environmental monitoring:** Real-time temperature, humidity, and gas detection
-- 🔌 **Appliance control:** Remotely operate fans and water pumps
-- 🔐 **Security:** Fingerprint-based door access
-- 🔥 **Fire alarm:** Detect gas leaks and high temperature, trigger alarms and send notifications
-- 🌱 **Auto watering:** Activate water pump based on soil moisture
-- 📱🖥 **Dual interface:** Control via mobile app and HMI touchscreen
+- 📱 Mobile app (Android)
+- 🖥️ HMI touchscreen interface
+- ☁️ Firebase backend for real-time data synchronization and notifications
 
 ---
 
-## 🧩 Hardware Components
+## 🚀 Core Features
 
-- STM32F103C8T6 (Blue Pill)
+- **Lighting Control**: Toggle lights across different rooms
+- **Environmental Monitoring**: Real-time tracking of temperature, humidity, and gas levels
+- **Appliance Management**: Remote operation of fans, water pumps, etc.
+- **Security**: Fingerprint-enabled door access
+- **Fire Detection & Alarm**: Gas/leak detection, high-temp alarms, and push notifications
+- **Automatic Irrigation**: Soil moisture-based pump activation
+- **Dual UI**: Control from both a mobile application and the HMI touchscreen
+
+---
+
+## 🧰 Hardware Components
+
+- STM32F103C8T6 (Blue Pill)
 - ESP32 DEVKIT V1
-- TJC4832K035_011RN 3.5” HMI touchscreen
-- MQ-2 Gas Sensor
-- DHT11 Temperature & Humidity Sensor
-- SG90 Servo Motor
-- 12V Cooling Fan
-- AS608 Fingerprint Sensor
-- LM2596 Buck Converter
-- PC817 Optocoupler
-- Diodes, Resistors, Capacitors, MOSFETs, Transistors
-- Jumper wires, Breadboard
+- TJC4832K035_011RN 3.5″ HMI touchscreen
+- MQ‑2 gas sensor, DHT11 sensor
+- SG90 servo, 12 V DC cooling fan
+- AS608 fingerprint sensor
+- LM2596 buck converter, PC817 optocoupler
+- Assorted diodes, resistors, capacitors, MOSFETs, transistors
+- Breadboard + jumper wires
 
 ---
 
-## 💻 Software Requirements
+## 💾 Software Stack
 
-- Arduino IDE
-- STM32CubeIDE
-- Firebase library (for ESP32)
-- TJC HMI software
-- MIT App Inventor (for mobile app development)
+- IDEs: Arduino IDE, STM32CubeIDE
+- Backend: Firebase Realtime Database (ESP32 integration)
+- Frontend:
+  - HMI config via TJC software
+  - Mobile app developed in MIT App Inventor
+
+---
+
+## ⚙️ Setup & Usage
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/NioDan-F/Smarthome-Firebase.git
+   ```
+2. Follow hardware schematics and wiring in the project report.
+3. Load firmware into STM32 and ESP32 using STM32CubeIDE and Arduino IDE.
+4. Upload HMI layout via TJC software.
+5. Configure Firebase and integrate mobile app for real-time control.
+
+➡️ **For schematics, wiring guide, deployment steps, and usage instructions, see the project report**: *Research on Integrating an Automated Smart Home System Using STM32 and ESP32*.
 
 ---
 
-## 📘 Documentation
+## 📹 Demo
 
-For setup instructions, circuit diagrams, code, and usage guide, please refer to the full project report:  
-**"Research on Integrating an Automated Smart Home System Using STM32 and ESP32"**
+💡 Add your demo video or link here — e.g.:
+
+```markdown
+### Demo Video
+[![View Demo](assets/thumbnail.jpg)](https://raw.githubusercontent.com/NioDan-F/Smarthome-Firebase/main/Demo%20SMH.mp4)
+```
 
 ---
+
+## 🤝 Contributing
+
+We welcome bug reports, enhancements, and pull requests! Fork the repository and submit your improvements.
+
+---
+
 ## 👤 Author
 
 **Quyet Ba (aka NioDan-F)**  
 📧 [quyet1hai@gmail.com](mailto:quyet1hai@gmail.com)
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to open an issue or submit a pull request for improvements or bug fixes.
+---
