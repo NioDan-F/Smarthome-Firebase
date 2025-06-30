@@ -65,7 +65,7 @@ A complete smart home demonstrator built using **STM32** and **ESP32**, featurin
 
 ```markdown
 ### Demo Video
-[![View Demo](assets/thumbnail.jpg)](https://raw.githubusercontent.com/NioDan-F/Smarthome-Firebase/main/Demo%20SMH.mp4)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=HB_Bb6ohP3s)
 ```
 
 ---
