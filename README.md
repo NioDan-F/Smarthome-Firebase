@@ -65,7 +65,7 @@ A complete smart home demonstrator built using **STM32** and **ESP32**, featurin
 
 ```markdown
 ### Demo Video
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=HB_Bb6ohP3s)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/HB_Bb6ohP3s?si=91tx-XMzEZjpgrvs)
 ```
 
 ---
