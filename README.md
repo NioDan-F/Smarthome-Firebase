@@ -77,10 +77,10 @@ Preview -> [Move Your Mouse HERE!](https://github.com/NioDan-F/Smarthome-Firebas
 
 ## 📁 Project Structure
 
-- `code_esp32_SmartHome_Firebase.ino` – ESP32 code for Firebase integration  
-- `stm32_main.c` – Main STM32 firmware handling sensors and devices  
-- `*.HMI` – HMI configuration files  
-- PCB design (`.PrjPcb`), report, and demo files included  
+- [`[ino]-esp32_main.ino`]([ino]-esp32_main.ino) – ESP32 code for Firebase integration  
+- [`[c]-Stm32_main.c`]([c]-Stm32_main.c) – Main STM32 firmware handling sensors and devices  
+- [`[ino]-Collect_ID.ino`]([ino]-Collect_ID.ino) – ESP32 code for collect ID fingerprint files  
+- [`[PrjPcb]-PCB_Project_Altium.PrjPcb`]([PrjPcb]-PCB_Project_Altium.PrjPcb)PCB design , report, and demo files included  
 
 ---
 
