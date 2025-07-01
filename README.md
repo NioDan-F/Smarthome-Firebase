@@ -69,7 +69,7 @@ A complete demo of a smart home system using **STM32 (Blue Pill)** and **ESP32**
 ---
 
 ## 📹 Demo Video
-https://github-production-user-asset-6210df.s3.amazonaws.com/218482220/461159236-d7dc2ed1-0180-4162-8051-8e70659ab832.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250701%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250701T170019Z&X-Amz-Expires=300&X-Amz-Signature=9ddd1360542d63b669721bf147b95954625811674e01478ac45f8672abbed5b4&X-Amz-SignedHeaders=host
+https://user-images.githubusercontent.com/218482220/461159236-d7dc2ed1-0180-4162-8051-8e70659ab832.mp4
 [![Watch the demo](https://img.youtube.com/vi/G2j17-QzUfQ/hqdefault.jpg)](https://youtu.be/G2j17-QzUfQ)
 
 ---
