@@ -1,73 +1,85 @@
-# Smart Home Project with STM32 & ESP32
+# 🏠 Smart Home Project with STM32 & ESP32
 
-## Overview
+A complete demo of a smart home system using **STM32 (Blue Pill)** and **ESP32**, enabling full control and monitoring via:
 
-A complete smart home demonstrator built using **STM32** and **ESP32**, featuring control and monitoring via:
-
-- 📱 Mobile app (Android)
-- 🖥️ HMI touchscreen interface
-- ☁️ Firebase backend for real-time data synchronization and notifications
+- 📱 Android mobile app  
+- 🖥️ Touchscreen HMI interface  
+- ☁️ Firebase Realtime Database with push notifications  
 
 ---
 
 ## 🚀 Core Features
 
-- **Lighting Control**: Toggle lights across different rooms
-- **Environmental Monitoring**: Real-time tracking of temperature, humidity, and gas levels
-- **Appliance Management**: Remote operation of fans, water pumps, etc.
-- **Security**: Fingerprint-enabled door access
-- **Fire Detection & Alarm**: Gas/leak detection, high-temp alarms, and push notifications
-- **Automatic Irrigation**: Soil moisture-based pump activation
-- **Dual UI**: Control from both a mobile application and the HMI touchscreen
+- **Lighting Control** – Toggle lights in different rooms/zones  
+- **Environmental Monitoring** – Live temperature, humidity, and gas data  
+- **Appliance Control** – Remotely operate fans, water pumps, and more  
+- **Security System** – Fingerprint-based door unlocking  
+- **Fire & Gas Alerts** – Real-time gas leaks and high-temp detection with notifications  
+- **Smart Irrigation** – Auto water pump triggered by soil moisture sensor  
+- **Dual UI** – Control system from both mobile app and HMI touchscreen  
 
 ---
 
-## 🧰 Hardware Components
+## 🧰 Hardware Used
 
-- STM32F103C8T6 (Blue Pill)
-- ESP32 DEVKIT V1
-- TJC4832K035_011RN 3.5″ HMI touchscreen
-- MQ‑2 gas sensor, DHT11 sensor
-- SG90 servo, 12 V DC cooling fan
-- AS608 fingerprint sensor
-- LM2596 buck converter, PC817 optocoupler
-- Assorted diodes, resistors, capacitors, MOSFETs, transistors
-- Breadboard + jumper wires
+- STM32F103C8T6 (Blue Pill)  
+- ESP32 DevKit V1  
+- TJC4832K035_011RN – 3.5″ HMI touchscreen  
+- MQ‑2 gas sensor, DHT11 (temp/humidity sensor), soil moisture sensor  
+- SG90 servo, 12 V DC fan  
+- AS608 fingerprint sensor  
+- LM2596 buck converter, PC817 optocoupler  
+- MOSFETs, transistors, diodes, resistors, capacitors  
+- Breadboard, jumper wires  
 
 ---
 
-## 💾 Software Stack
+## 💻 Software Stack
 
-- IDEs: Arduino IDE, STM32CubeIDE
-- Backend: Firebase Realtime Database (ESP32 integration)
+- IDEs: STM32CubeIDE, Arduino IDE  
+- Realtime database: Firebase  
 - Frontend:
-  - HMI config via TJC software
-  - Mobile app developed in MIT App Inventor
+  - HMI UI created using TJC (Nextion-compatible) software  
+  - Mobile app built with MIT App Inventor  
 
 ---
 
-## ⚙️ Setup & Usage
+## ⚙️ Setup & Deployment
 
-1. Clone the repo:
+1. Clone the repository:
    ```bash
    git clone https://github.com/NioDan-F/Smarthome-Firebase.git
    ```
-2. Follow hardware schematics and wiring in the project report.
-3. Load firmware into STM32 and ESP32 using STM32CubeIDE and Arduino IDE.
-4. Upload HMI layout via TJC software.
-5. Configure Firebase and integrate mobile app for real-time control.
 
-➡️ **For schematics, wiring guide, deployment steps, and usage instructions, see the project report**: *Research on Integrating an Automated Smart Home System Using STM32 and ESP32*.
+2. Refer to the provided schematics and wiring in the project report.
+
+3. Flash firmware:
+   - Use **STM32CubeIDE** for STM32  
+   - Use **Arduino IDE** for ESP32  
+
+4. Upload HMI screen layout using TJC software.
+
+5. Set up Firebase:
+   - Configure your DB URL, API key, etc.  
+   - Connect the Android app for live control and monitoring  
+
+📘 For full schematics, wiring, deployment steps, and usage guide, refer to the project report:  
+**_“Research on Integrating an Automated Smart Home System Using STM32 and ESP32”_**
 
 ---
 
-## 📹 Demo
+## 📹 Demo Video
 
-```markdown
-### 🎥 Demo Video  
 [![Watch the demo](https://img.youtube.com/vi/HB_Bb6ohP3s/hqdefault.jpg)](https://www.youtube.com/watch?v=HB_Bb6ohP3s)
 
-```
+---
+
+## 📁 Project Structure
+
+- `code_esp32_SmartHome_Firebase.ino` – ESP32 code for Firebase integration  
+- `stm32_main.c` – Main STM32 firmware handling sensors and devices  
+- `*.HMI` – HMI configuration files  
+- PCB design (`.PrjPcb`), report, and demo files included  
 
 ---
 
@@ -77,3 +89,4 @@ A complete smart home demonstrator built using **STM32** and **ESP32**, featurin
 📧 [quyet1hai@gmail.com](mailto:quyet1hai@gmail.com)
 
 ---
+
