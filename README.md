@@ -71,8 +71,8 @@ A complete demo of a smart home system using **STM32 (Blue Pill)** and **ESP32**
 ## 📹 Demo Video
 [![Watch the demo](https://img.youtube.com/vi/G2j17-QzUfQ/hqdefault.jpg)](https://youtu.be/G2j17-QzUfQ)
 ---
-Watch the full demo [here on GitHub](https://github.com/NioDan-F/Smarthome-Firebase/issues/1#issue-3193214861)
-[![Demo Screenshot](https://raw.githubusercontent.com/NioDan-F/Smarthome-Firebase/main/assets/demo-thumbnail.jpg)](https://github.com/NioDan-F/Smarthome-Firebase/issues/1#issue-3193214861)
+Watch the full demo [Move Your Mouse HERE!](https://github.com/NioDan-F/Smarthome-Firebase/issues/1#issue-3193214861)
+
 
 ## 📁 Project Structure
 
