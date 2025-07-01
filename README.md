@@ -72,6 +72,7 @@ A complete demo of a smart home system using **STM32 (Blue Pill)** and **ESP32**
 
 [![Watch the demo](https://img.youtube.com/vi/G2j17-QzUfQ/hqdefault.jpg)](https://youtu.be/G2j17-QzUfQ)
 
+[Demo SMH.mp4](Demo SMH.mp4)
 ---
 
 ## 📁 Project Structure
