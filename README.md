@@ -71,7 +71,7 @@ A complete demo of a smart home system using **STM32 (Blue Pill)** and **ESP32**
 ## 📹 Demo Video
 https://user-images.githubusercontent.com/218482220/461159236-d7dc2ed1-0180-4162-8051-8e70659ab832.mp4
 [![Watch the demo](https://img.youtube.com/vi/G2j17-QzUfQ/hqdefault.jpg)](https://youtu.be/G2j17-QzUfQ)
-
+https://private-user-images.githubusercontent.com/218482220/461159236-d7dc2ed1-0180-4162-8051-8e70659ab832.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTEzODk4NzQsIm5iZiI6MTc1MTM4OTU3NCwicGF0aCI6Ii8yMTg0ODIyMjAvNDYxMTU5MjM2LWQ3ZGMyZWQxLTAxODAtNDE2Mi04MDUxLThlNzA2NTlhYjgzMi5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcwMVQxNzA2MTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kZmQxNDM4N2FkYjY5Mzg5MGZmNzQyNDdmZjg4MjE2NTJmZjhkNWQ1MjNkMTY3YjdkODAwYjVkN2IxYjYxOGIxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.iK5nvJatrHBO3m9a9XemtGZmV8ZmZcmhbOcgU2vJVhQ
 ---
 
 ## 📁 Project Structure
